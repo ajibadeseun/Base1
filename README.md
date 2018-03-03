@@ -3,12 +3,12 @@ This is app that shows how to apply material design guidelines in android applic
 
 # Screnshots
 
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173851.png" width="350" height="350" />
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173900.png" width="350" height="350" />
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173905.png" width="350" height=350"" />
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173911.png" width="350" height="350" />
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173916.png" width="350" height="350" />
-<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173928.png" width="350" height="350" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173851.png" width="300" height="400" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173900.png" width="300" height="400" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173905.png" width="300" height="400" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173911.png" width="300" height="400" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173916.png" width="300" height="400" />
+<img src="https://github.com/ajibadeseun/Base1/blob/master/Screenshot_20180303-173928.png" width="300" height="400" />
 
 # Gradle
 Make sure your build.gradle(Module:app) file looks as follows:
@@ -34,7 +34,7 @@ Make sure your build.gradle(Module:app) file looks as follows:
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
+    }
 
     dependencies {
 
@@ -75,7 +75,7 @@ And your build.gradle(Project:app) looks like the following:
         }
         google()
      }
-   }
+    }
 
     task clean(type: Delete) {
     delete rootProject.buildDir
